@@ -15,3 +15,6 @@ DeclareGlobalFunction( "GCBenchNonGenerational" );
 # Chris' Intersection Benchmark
 DeclareGlobalFunction( "IntersectBench" );
 
+
+DeclareGlobalFunction( "RunAllBench" );
+
