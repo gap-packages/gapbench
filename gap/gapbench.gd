@@ -8,3 +8,4 @@ DeclareGlobalFunction( "MicroSeconds" );
 DeclareGlobalFunction( "Bench" );
 DeclareGlobalFunction( "RepeatBench" );
 
+DeclareGlobalFunction( "GCBench" );
