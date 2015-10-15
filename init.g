@@ -7,7 +7,7 @@
 
 # Legacy GAP compatibility shim
 if not IsBound(Variance) then
-    BindGlobal(Variance,
+    BindGlobal("Variance",
         function(l)
             local avg;
             avg := Average(l);
