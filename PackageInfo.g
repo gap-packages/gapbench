@@ -32,7 +32,7 @@ Persons := [
   ),
 ],
 
-PackageWWWHome := "http://gap-packages.github.io/gapbench/",
+PackageWWWHome := "https://gap-packages.github.io/gapbench/",
 
 ArchiveURL     := Concatenation("https://github.com/gap-packages/gapbench/",
                                 "releases/download/v", ~.Version,
@@ -63,7 +63,7 @@ AbstractHTML   :=  "",
 PackageDoc := rec(
   BookName  := "gapbench",
   ArchiveURLSubset := ["doc"],
-  HTMLStart := "doc/chap0.html",
+  HTMLStart := "doc/chap0_mj.html",
   PDFFile   := "doc/manual.pdf",
   SixFile   := "doc/manual.six",
   LongTitle := "Benchmarking GAP",
